@@ -11,10 +11,11 @@ Para (i==0 ate tam-1) faca
 	Fim-Se
 	i++
 Fim-Para
+Fim-Funcao
 
-Inteiro: vetor[], tam, i , e, n
 Inicio
-	
+Inteiro: vetor[], tam, i , e, n	
+
 Escreva("Digite o tamanho do vetor: ")
 Leia(tam)
 Para(i==0 ate tam-1) faca
