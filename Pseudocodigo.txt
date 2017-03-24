@@ -9,6 +9,7 @@ Para (i==0 ate tam-1) faca
 	Senao
 		Retorne -1
 	Fim-Se
+	i++
 Fim-Para
 
 Inteiro: vetor[], tam, i , e, n
