@@ -1,0 +1,33 @@
+Algoritmo Busca_Elemento
+
+Funcao Busca_Elemento(num, vetor[], tam) 
+Inteiro: i
+
+Para (i==0 ate tam-1) faca
+	Se(vetor[i]==num) entao
+		Retorne 1
+	Senao
+		Retorne -1
+	Fim-Se
+Fim-Para
+
+Inteiro: vetor[], tam, i , e, n
+Inicio
+	
+Escreva("Digite o tamanho do vetor: ")
+Leia(tam)
+Para(i==0 ate tam-1) faca
+	Escreva("Digite o valor do elemento: ")
+	Leia(e)
+	vetor[i] <- e
+	i++
+Fim-Para
+Escreva("Digite o elemento a ser buscado: ")
+Leia(n)
+Busca_Elemento(n, vetor, tam)
+Se(Busca_Elemento>0) entao
+	Escreva("Elemento encontrado!")
+Senao
+	Escreva("Elemento nao encontrado")
+Fim-Se
+Fim-Algoritmo
